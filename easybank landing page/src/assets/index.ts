@@ -8,14 +8,13 @@ import Restaurant from "./image-restaurant.jpg";
 import Plane from "./image-plane.jpg";
 import Party from "./image-confetti.jpg";
 
-import Facebook from "./icon-facebook.svg";
-import YouTube from "./icon-youtube.svg";
-import Twitter from "./icon-twitter.svg";
-import Pinterest from "./icon-pinterest.svg";
-import Instagram from "./icon-instagram.svg";
+// import Facebook from "./icon-facebook.svg";
+// import YouTube from "./icon-youtube.svg";
+// import Twitter from "./icon-twitter.svg";
+// import Pinterest from "./icon-pinterest.svg";
+// import Instagram from "./icon-instagram.svg";
 
 export {
     Online, Budget, OnBoard, Api,
     Money, Restaurant, Plane, Party,
-    Facebook, YouTube, Twitter, Pinterest, Instagram
 };

@@ -1,3 +1,5 @@
+import React from "react";
+
 export interface navLinksProps {
     id: number;
     title: string;
@@ -21,5 +23,5 @@ export interface newsFeaturesProps {
 
 export interface socialMediaProps{
     id: number;
-    icon: string;
+    icon: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
 }

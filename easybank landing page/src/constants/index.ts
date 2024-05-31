@@ -1,7 +1,13 @@
 import { navLinksProps, aboutFeaturesProps, newsFeaturesProps, socialMediaProps } from "./type";
 import { Online, Budget, OnBoard, Api } from "../assets";
 import { Money, Restaurant, Plane, Party } from "../assets";
-import { Facebook,YouTube, Twitter,Pinterest, Instagram } from "../assets";
+
+import { ReactComponent as Facebook } from "../assets/icon-facebook.svg";
+import { ReactComponent as YouTube } from "../assets/icon-youtube.svg";
+import { ReactComponent as Twitter } from "../assets/icon-twitter.svg";
+import { ReactComponent as Pinterest } from "../assets/icon-pinterest.svg";
+import { ReactComponent as Instagram } from "../assets/icon-instagram.svg";
+
 const navLinks: navLinksProps[] = [
     {
         id: 1,

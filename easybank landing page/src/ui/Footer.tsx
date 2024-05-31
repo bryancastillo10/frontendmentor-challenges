@@ -14,10 +14,12 @@ const Footer = () => {
           {/* section 1 */}
           <div className="flex flex-col justify-between min-h-[100px]">
           <img src={footerLogo} alt={footerLogo} />
-          <ul className="flex gap-2 my-4">
-            {socialMedia.map((social) => (
-              <li key={social.id}><Linker><img className="social-media-link" src={social.icon} alt={social.icon} /></Linker></li>
-            ))}
+          <ul className="flex gap-3 my-4">
+              {socialMedia.map((social) => {
+                const Icons = social.icon;
+                return (<li key={social.id} className="w-6 h-6 social-icons"><Icons/></li>)
+              }
+            )}
           </ul>
           </div>
           {/* section 2 */}

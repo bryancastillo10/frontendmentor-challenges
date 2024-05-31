@@ -38,13 +38,19 @@
 @layer components {
   .hero-header-text {
     @apply font-bold text-primary text-4xl leading-tight 
-    mb-4 text-center md:text-left md:text-6xl md:font-semibold;
+    mb-4 text-center md:text-left md:text-6xl md:font-light;
   }
   .hero-statement {
     word-spacing: 0.05em;
     @apply md:my-10 text-[14px] md:text-base text-neutral-dark text-center
     font-normal md:text-justify md:tracking-normal
     md:max-w-[80%] md:text-balance md:leading-normal;
+  }
+  .hero-logo-image {
+    @apply relative w-full h-[450px] overflow-hidden bg-[url('./assets/bg-intro-mobile.svg')]
+    bg-no-repeat bg-[100%_auto] bg-[0_-130px]  
+    md:bg-[url('./assets/bg-intro-desktop.svg')] lg:h-[740px]
+    md:bg-[100px_-130px] lg:bg-[100px_-180px]  md:h-[660px] md:overflow-x-clip;
   }
 }
 
@@ -66,8 +72,8 @@
 
 /* Footer */
 @layer components {
-  .social-media-link:hover {
-    @apply scale-110 bg-emerald-500 rounded-md;
+  .social-icons path:hover {
+    @apply fill-emerald-400 scale-110;
   }
 }
 
