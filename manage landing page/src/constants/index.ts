@@ -1,3 +1,5 @@
 import { navigation } from "./navigation";
+import { aboutFeatures } from "./about";
+import { feedback } from "./feedback";
 
-export { navigation };
+export { navigation, aboutFeatures, feedback };

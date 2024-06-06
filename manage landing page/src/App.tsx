@@ -7,6 +7,9 @@ const App = () => {
       <div
         style={{
           backgroundImage: `url(${desktopFiller})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
         }}
       >
         <Navbar />
